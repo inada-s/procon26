@@ -7,6 +7,21 @@
 サードパーティライブラリを除きMITライセンスで公開します.
 
 詳しくはLICENSE, AUTHORSをご覧ください.
+## ビルド方法
+```
+mkdir build && cd build
+cmake path/to/this/repository
+make
+```
+
+## 実行方法
+```
+cd build/bin/submit_tool
+./_init.sh
+./get.sh 1 # 問題取得
+./run.sh 1 # ソルバの実行
+./submit.sh 1 # 現在見つかっている一番良い解の提出
+```
 
 ## 方針
 左上から右下に向かって埋めていくビームサーチです.
