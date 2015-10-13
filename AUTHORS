@@ -1,0 +1,6 @@
+Shingo INADA
+
+THIRD PARTY LIBRARIES
+include/gv.hpp https://github.com/colun/gvc.js (MIT License)
+sparsehash https://github.com/sparsehash/sparsehash (BSD 3-Clause License)
+
